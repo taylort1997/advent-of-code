@@ -3,7 +3,7 @@
 import sys
 from pathlib import Path
 
-def solve(input_data: str) -> int:
+def solve(input_data: str) -> tuple[int, int]:
     """
     Solve the puzzle.
 
@@ -14,7 +14,7 @@ def solve(input_data: str) -> int:
         Solution (change return type as needed)
     """
     lines = input_data.strip().splitlines()
-    return len(lines)  # TODO: Implement actual logic
+    return len(lines), 0  # TODO: Implement actual logic
 
 def main():
     """Read input and solve"""

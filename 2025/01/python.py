@@ -3,7 +3,7 @@
 import sys
 from pathlib import Path
 
-def solve(input_data: str) -> int:
+def solve(input_data: str) -> tuple[int, int]:
     """
     Solve the puzzle.
 
